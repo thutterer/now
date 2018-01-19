@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "DSEG14Classic Bold";
+  src: url("DSEG14Classic-Bold.ttf");
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+  margin: 0;
+
+  font-family: 'DSEG14Classic Bold'
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+.clock {
+  flex-grow: 1;
+  text-align: center;
+
+  color: yellow;
+  font-size: 15vmin;
+  text-shadow: 0 0 2vmin red;
+}
